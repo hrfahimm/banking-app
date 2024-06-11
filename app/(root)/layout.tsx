@@ -5,13 +5,13 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
-            <main>
-                sidebar 
-                {children}
-                
+        // <html lang="en">
+        <main>
+            sidebar
+            {children}
 
-            </main>
-        </html>
+
+        </main>
+        // </html>
     );
 }
