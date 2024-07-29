@@ -1,5 +1,6 @@
 import HeaderBox from '@/components/HeaderBox'
-import TotalBalanceBox from '@/components/totalBalanceBox';
+import TotalBalanceBox from '@/components/TotalBalanceBox';
+
 
 
 
@@ -19,7 +20,7 @@ const Home = () => {
                     <TotalBalanceBox
                         accounts={[]}
                         totalBanks={1}
-                        totalCurrentBalance={12932329937344.83}
+                        totalCurrentBalance={12932344.83}
                     />
 
 
