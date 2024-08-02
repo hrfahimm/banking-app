@@ -29,6 +29,10 @@ const TotalBalanceBox = ({ accounts = [], totalBanks, totalCurrentBalance }: Tot
                         <AnimatedCounter amount={totalCurrentBalance} />
 
                     </div>
+                    <div className="total-balance-amount flex-center gap-2">
+                        <AnimatedCounter amount={totalCurrentBalance} />
+
+                    </div>
                 </div>
 
             </div>
