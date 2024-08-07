@@ -33,7 +33,10 @@ const SideBar = ({ user }: SiderbarProps) => {
                         </Link>
                     ))
                 })}
+                <p className="text-black-2">USER</p>
             </nav>
+            <p className='text-black-1'>Footer</p>
+
 
         </section >
     )
